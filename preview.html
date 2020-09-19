@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>web 360</title>
+        <link rel="stylesheet" href="style4.css">
+        <body>
+            <section class="banner" id="sec">
+                <header>
+                    <a href="./index.html" class="logo"><img width="27px" height="27px" src="./img/logo.png" alt="">web<span>360</span></a>
+                    <div id="toggle" onclick="toggle()"></div>
+                </header>
+
+
+
+
+
+
+
+
+
+
+                <div class="grid">
+                    <div class="grid-item">
+                      <div class="card">
+                        <img class="card-img" src="./img/rome.jpg" alt="Rome" />
+                        <div class="card-content">
+                          <h1 class="card-header">Desa Pandanwangi</h1>
+                          <p class="card-text">
+                            Desa ini sangat cocok untuk dijadikan <strong> tempat rekreasi</strong>,
+                            disamping udaranya yang sejuk, desa ini menghadirkan pemandangan
+                            yang memukau.
+                          </p>
+                          <button class="card-btn" onclick="window.location.href='./desa1.html'">Visit <span>&rarr;</span></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="card">
+                        <img
+                          class="card-img"
+                          src="./img/grand-canyon.jpg"
+                          alt="Grand Canyon"
+                        />
+                        <div class="card-content">
+                          <h1 class="card-header">Desa itu</h1>
+                          <p class="card-text">
+                            desa itu, bukan desa pandanwangi, bukan pula desa lain
+                          </p>
+                          <button class="card-btn">Visit <span>&rarr;</span></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-item">
+                      <div class="card">
+                        <img class="card-img" src="./img/maldives.jpg" alt="Maldives" />
+                        <div class="card-content">
+                          <h1 class="card-header">Desa lain</h1>
+                          <p class="card-text">
+                            desa yang bukan desa Pandanwangi
+                            dan bukan pula desa itu
+                          </p>
+                          <button class="card-btn">Visit <span>&rarr;</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </section>
+            <div id="navigation">
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="#"><span>research</span></a></li>
+                    <li><a href="./devpage.html">developer</a></li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active');
+                nav.classList.toggle('active');
+            }
+            </script>
+        </body>
+    </head>
+</html>
