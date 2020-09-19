@@ -293,7 +293,7 @@ body {
         grid-gap: 2rem;
     }
     .grid-item {
-        width: 10px;
+        width: 400px;
     }
     .card-header {
         font-size: 2.5rem;
